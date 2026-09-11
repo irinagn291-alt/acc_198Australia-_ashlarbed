@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CC5BE8467D77D52331B2EA /* RestBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D227EA5C68BF137341488B /* RestBand.swift */; };
+		0A5C6FD39E1016BA434AC1D4 /* SteepleSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860C3CBA2E2B38D45F9A84A6 /* SteepleSeed.swift */; };
+		0C13970685CE5869F91D42F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CC49A6B1130240EF4E5199 /* Assets.xcassets */; };
+		1A0B7DF6668AC12394900D4A /* SteepleClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26555CDBEB71FA9947A801F /* SteepleClientTests.swift */; };
+		26F9FD1D9FFAD3253C254665 /* SteepleDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DC13C9B2ADCC948AE72E6B /* SteepleDay.swift */; };
+		29D129F4026AABB9C9F8098B /* ScaffoldFoldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B31B6502ABEB1DD6E79A5C /* ScaffoldFoldTests.swift */; };
+		2C6B531C14E78F9263D367A6 /* SteepleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954B731FA9EEE29E242B27D2 /* SteepleStore.swift */; };
+		2E4F9ECA6E90B07D0B2CC633 /* SteepleHold.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E9AF2F093612540E1B5E0A3 /* SteepleHold.swift */; };
+		358F75C30C217A1599B8A1DC /* RestCourseChip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D0067248ED963A6B7349C0 /* RestCourseChip.swift */; };
+		3EF9C147F24DB574D6083B3B /* SteepleCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76C5AB6CAF5FD50E3987421B /* SteepleCodec.swift */; };
+		42370DF5C52E18051D979755 /* FloorLedger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9119DA0CB9097EC6B7FF0119 /* FloorLedger.swift */; };
+		4767904B717AECEFDE8B77F6 /* SteepleFault.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F2A73EA228679A4BAB91B /* SteepleFault.swift */; };
+		47803557F92ED4B5BCCEE033 /* Scaffold.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45392F77BDF2B0F3C29DCBF /* Scaffold.swift */; };
+		488DDFDE11841A297BE309CA /* LoggedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13FFDBEF1DFCBB544B5D601 /* LoggedSet.swift */; };
+		4BED420F60BF8F112EBE269E /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B7E4EF58B1C22011C7399 /* APIConfig.swift */; };
+		4C9C3C5FE7EAFB9C4F4FE0EC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0D01E4208E4EF49BF373F5A7 /* Alamofire */; };
+		50320789C9CC86052BF001DB /* SteepleStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBAF1E052DEAA433D72050 /* SteepleStoreTests.swift */; };
+		50FCAC30F1FD243994CED146 /* SteepleLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A75AAC42483D0ACE4FAEF7 /* SteepleLaunchTests.swift */; };
+		5C11DDEAAB1314FE080ABFEE /* FamilyInvariantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C657DED94E6F62406A937184 /* FamilyInvariantTests.swift */; };
+		5CBB14DF85E2257D607A27D1 /* CiteMark.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8EFA97A6F615CBB33B02329 /* CiteMark.swift */; };
+		5D5C16B258880D119563E015 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A31AE474ED8727048C7C44 /* AppDelegate.swift */; };
+		65421ECD3B2F33E2EAFD0DFD /* SteepleWatchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFFCDF94A0D1AFBF1827F62 /* SteepleWatchTests.swift */; };
+		6A8D4F2134CE80ACC2FADC71 /* AshlarbedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26BA318C457DBA53CA0361D /* AshlarbedApp.swift */; };
+		70E525181AABAFE6B548B273 /* SteepleWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95CDF75BB041247AF16684 /* SteepleWatch.swift */; };
+		720292EA01F57EB40E0BE384 /* AshlarFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = C92EAB2D8B089FE6D969081F /* AshlarFigure.swift */; };
+		7275D76AFA02DF2FF8FE3D7F /* AshlarFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082E312E196835072F6D76ED /* AshlarFace.swift */; };
+		74982529A87D50245D5D0A5E /* TowerPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4968BA44D554D95DECAF52D /* TowerPane.swift */; };
+		9F1437B6D4D83866922D4D07 /* AshlarPassage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0957FE5E49BECBBCFA243C0 /* AshlarPassage.swift */; };
+		A0AFE0271DF6CE78A076E011 /* ClimbableSteeple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6C5728BD65A2480AEA55AC /* ClimbableSteeple.swift */; };
+		A4692EF6D6891C2C2A7BB615 /* SteepleClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88A02CC86BCC586F4E44A45 /* SteepleClient.swift */; };
+		AA83B8E64EB05126D7E6228F /* AshlarSwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A67A49FB6DC3343641FC1F /* AshlarSwatch.swift */; };
+		AC6CB4BFA1930461B427ED66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3609580FB676B5CA4BB9A0 /* ContentView.swift */; };
+		B0DF8623FF98735B8824E14E /* AshlarSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62C395CA5AE65B176ECBDF41 /* AshlarSettings.swift */; };
+		B3E06C917F95E07DB0A4B558 /* Steeple.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA90FE8445BE0F9173A63DD /* Steeple.swift */; };
+		C20902177DD35AC92F0B5C80 /* AshlarWash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F15D1EDF247D7CDFBE919DA /* AshlarWash.swift */; };
+		D5D43B5FF47E6ABABC5D2942 /* PRStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6708A5D23F9964F7ACEA6549 /* PRStamp.swift */; };
+		DF1DCDFEFA347F23491EBD49 /* StoreyFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF6D8C423989237137ED77E /* StoreyFold.swift */; };
+		E1F65477DF477FF5EE715A88 /* SteepleLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7634A6269D96E6C020CF9086 /* SteepleLaunch.swift */; };
+		E3690752C9637E12580044F0 /* MasonryLift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9523FDC6853C0572601455 /* MasonryLift.swift */; };
+		E938D131E1EF6BDDFFAE75DA /* AshlarbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE28B67C6093DE3DB7AEEAAF /* AshlarbedTests.swift */; };
+		EE882C9DFDB4CF6199D97B12 /* SetLogFold.swift in Sources */ = {isa = PBXBuildFile; fileRef = B436CBC43FA149DC88853F33 /* SetLogFold.swift */; };
+		F0817E25C2E5F6D911F99374 /* Storey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72C8E167DA7CCEE343C82BA6 /* Storey.swift */; };
+		F7079DE85B1FF61C2D5BE0FF /* SteepleChrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED11C6BF55313222D002879C /* SteepleChrome.swift */; };
+		FF81B00AB1804B0F75BB2715 /* BedFoldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D776C192C576F00C845679C /* BedFoldView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58DC47032131B3F76B163F99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0231AD99DC7836BC46E5A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AD8934FD5D70F971640D25;
+			remoteInfo = Ashlarbed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049B7E4EF58B1C22011C7399 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		082E312E196835072F6D76ED /* AshlarFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshlarFace.swift; sourceTree = "<group>"; };
+		0C9523FDC6853C0572601455 /* MasonryLift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasonryLift.swift; sourceTree = "<group>"; };
+		19B31B6502ABEB1DD6E79A5C /* ScaffoldFoldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaffoldFoldTests.swift; sourceTree = "<group>"; };
+		1A6C5728BD65A2480AEA55AC /* ClimbableSteeple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbableSteeple.swift; sourceTree = "<group>"; };
+		1DDBAF1E052DEAA433D72050 /* SteepleStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleStoreTests.swift; sourceTree = "<group>"; };
+		1F95CDF75BB041247AF16684 /* SteepleWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleWatch.swift; sourceTree = "<group>"; };
+		28CC49A6B1130240EF4E5199 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30D227EA5C68BF137341488B /* RestBand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestBand.swift; sourceTree = "<group>"; };
+		4D776C192C576F00C845679C /* BedFoldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BedFoldView.swift; sourceTree = "<group>"; };
+		4F15D1EDF247D7CDFBE919DA /* AshlarWash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshlarWash.swift; sourceTree = "<group>"; };
+		52A75AAC42483D0ACE4FAEF7 /* SteepleLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleLaunchTests.swift; sourceTree = "<group>"; };
+		5CFFCDF94A0D1AFBF1827F62 /* SteepleWatchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleWatchTests.swift; sourceTree = "<group>"; };
+		62C395CA5AE65B176ECBDF41 /* AshlarSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshlarSettings.swift; sourceTree = "<group>"; };
+		6708A5D23F9964F7ACEA6549 /* PRStamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PRStamp.swift; sourceTree = "<group>"; };
+		6E9AF2F093612540E1B5E0A3 /* SteepleHold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleHold.swift; sourceTree = "<group>"; };
+		70D0067248ED963A6B7349C0 /* RestCourseChip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestCourseChip.swift; sourceTree = "<group>"; };
+		72C8E167DA7CCEE343C82BA6 /* Storey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storey.swift; sourceTree = "<group>"; };
+		7634A6269D96E6C020CF9086 /* SteepleLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleLaunch.swift; sourceTree = "<group>"; };
+		76C5AB6CAF5FD50E3987421B /* SteepleCodec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleCodec.swift; sourceTree = "<group>"; };
+		860C3CBA2E2B38D45F9A84A6 /* SteepleSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleSeed.swift; sourceTree = "<group>"; };
+		9119DA0CB9097EC6B7FF0119 /* FloorLedger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorLedger.swift; sourceTree = "<group>"; };
+		954B731FA9EEE29E242B27D2 /* SteepleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleStore.swift; sourceTree = "<group>"; };
+		95A31AE474ED8727048C7C44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A11F2A73EA228679A4BAB91B /* SteepleFault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleFault.swift; sourceTree = "<group>"; };
+		A3A1E890A47E0AAB3046FA53 /* Ashlarbed.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Ashlarbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5DC13C9B2ADCC948AE72E6B /* SteepleDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleDay.swift; sourceTree = "<group>"; };
+		A88A02CC86BCC586F4E44A45 /* SteepleClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleClient.swift; sourceTree = "<group>"; };
+		AEA90FE8445BE0F9173A63DD /* Steeple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steeple.swift; sourceTree = "<group>"; };
+		B436CBC43FA149DC88853F33 /* SetLogFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLogFold.swift; sourceTree = "<group>"; };
+		B5C4F7CA7220D7156C5CF088 /* AshlarbedTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AshlarbedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0957FE5E49BECBBCFA243C0 /* AshlarPassage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshlarPassage.swift; sourceTree = "<group>"; };
+		C13FFDBEF1DFCBB544B5D601 /* LoggedSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedSet.swift; sourceTree = "<group>"; };
+		C26BA318C457DBA53CA0361D /* AshlarbedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshlarbedApp.swift; sourceTree = "<group>"; };
+		C657DED94E6F62406A937184 /* FamilyInvariantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamilyInvariantTests.swift; sourceTree = "<group>"; };
+		C92EAB2D8B089FE6D969081F /* AshlarFigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshlarFigure.swift; sourceTree = "<group>"; };
+		D3A67A49FB6DC3343641FC1F /* AshlarSwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshlarSwatch.swift; sourceTree = "<group>"; };
+		D8EFA97A6F615CBB33B02329 /* CiteMark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiteMark.swift; sourceTree = "<group>"; };
+		DB3609580FB676B5CA4BB9A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E4968BA44D554D95DECAF52D /* TowerPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TowerPane.swift; sourceTree = "<group>"; };
+		ED11C6BF55313222D002879C /* SteepleChrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleChrome.swift; sourceTree = "<group>"; };
+		F26555CDBEB71FA9947A801F /* SteepleClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SteepleClientTests.swift; sourceTree = "<group>"; };
+		F45392F77BDF2B0F3C29DCBF /* Scaffold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scaffold.swift; sourceTree = "<group>"; };
+		FE28B67C6093DE3DB7AEEAAF /* AshlarbedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AshlarbedTests.swift; sourceTree = "<group>"; };
+		FFF6D8C423989237137ED77E /* StoreyFold.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreyFold.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1978363487E9672F8AA2C650 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9C3C5FE7EAFB9C4F4FE0EC /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		103B35E21F2C427562B48C8D /* AshlarbedTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE28B67C6093DE3DB7AEEAAF /* AshlarbedTests.swift */,
+				C657DED94E6F62406A937184 /* FamilyInvariantTests.swift */,
+				19B31B6502ABEB1DD6E79A5C /* ScaffoldFoldTests.swift */,
+				F26555CDBEB71FA9947A801F /* SteepleClientTests.swift */,
+				52A75AAC42483D0ACE4FAEF7 /* SteepleLaunchTests.swift */,
+				1DDBAF1E052DEAA433D72050 /* SteepleStoreTests.swift */,
+				5CFFCDF94A0D1AFBF1827F62 /* SteepleWatchTests.swift */,
+			);
+			path = AshlarbedTests;
+			sourceTree = "<group>";
+		};
+		37C4A1180A8D71B243FA9E01 /* Scaffold */ = {
+			isa = PBXGroup;
+			children = (
+				4D776C192C576F00C845679C /* BedFoldView.swift */,
+				1A6C5728BD65A2480AEA55AC /* ClimbableSteeple.swift */,
+				F45392F77BDF2B0F3C29DCBF /* Scaffold.swift */,
+				A5DC13C9B2ADCC948AE72E6B /* SteepleDay.swift */,
+				E4968BA44D554D95DECAF52D /* TowerPane.swift */,
+			);
+			path = Scaffold;
+			sourceTree = "<group>";
+		};
+		475B48DB1D07CC572A676865 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3A1E890A47E0AAB3046FA53 /* Ashlarbed.app */,
+				B5C4F7CA7220D7156C5CF088 /* AshlarbedTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48508D25A7FC0923182BE25C /* RestBand */ = {
+			isa = PBXGroup;
+			children = (
+				30D227EA5C68BF137341488B /* RestBand.swift */,
+				70D0067248ED963A6B7349C0 /* RestCourseChip.swift */,
+			);
+			path = RestBand;
+			sourceTree = "<group>";
+		};
+		6FD319E2971667A394D2835E /* Set */ = {
+			isa = PBXGroup;
+			children = (
+				C13FFDBEF1DFCBB544B5D601 /* LoggedSet.swift */,
+				B436CBC43FA149DC88853F33 /* SetLogFold.swift */,
+			);
+			path = Set;
+			sourceTree = "<group>";
+		};
+		84759DB77F22F7E8232FFB45 /* Ashlarbed */ = {
+			isa = PBXGroup;
+			children = (
+				049B7E4EF58B1C22011C7399 /* APIConfig.swift */,
+				95A31AE474ED8727048C7C44 /* AppDelegate.swift */,
+				C26BA318C457DBA53CA0361D /* AshlarbedApp.swift */,
+				28CC49A6B1130240EF4E5199 /* Assets.xcassets */,
+				DB3609580FB676B5CA4BB9A0 /* ContentView.swift */,
+				48508D25A7FC0923182BE25C /* RestBand */,
+				37C4A1180A8D71B243FA9E01 /* Scaffold */,
+				6FD319E2971667A394D2835E /* Set */,
+				9939912E708501ACBCE23F83 /* Steeple */,
+				EB1EE6F828AE630E92460C05 /* Storey */,
+			);
+			path = Ashlarbed;
+			sourceTree = "<group>";
+		};
+		9939912E708501ACBCE23F83 /* Steeple */ = {
+			isa = PBXGroup;
+			children = (
+				082E312E196835072F6D76ED /* AshlarFace.swift */,
+				C92EAB2D8B089FE6D969081F /* AshlarFigure.swift */,
+				C0957FE5E49BECBBCFA243C0 /* AshlarPassage.swift */,
+				62C395CA5AE65B176ECBDF41 /* AshlarSettings.swift */,
+				D3A67A49FB6DC3343641FC1F /* AshlarSwatch.swift */,
+				4F15D1EDF247D7CDFBE919DA /* AshlarWash.swift */,
+				0C9523FDC6853C0572601455 /* MasonryLift.swift */,
+				AEA90FE8445BE0F9173A63DD /* Steeple.swift */,
+				ED11C6BF55313222D002879C /* SteepleChrome.swift */,
+				A88A02CC86BCC586F4E44A45 /* SteepleClient.swift */,
+				76C5AB6CAF5FD50E3987421B /* SteepleCodec.swift */,
+				A11F2A73EA228679A4BAB91B /* SteepleFault.swift */,
+				6E9AF2F093612540E1B5E0A3 /* SteepleHold.swift */,
+				7634A6269D96E6C020CF9086 /* SteepleLaunch.swift */,
+				860C3CBA2E2B38D45F9A84A6 /* SteepleSeed.swift */,
+				954B731FA9EEE29E242B27D2 /* SteepleStore.swift */,
+				1F95CDF75BB041247AF16684 /* SteepleWatch.swift */,
+			);
+			path = Steeple;
+			sourceTree = "<group>";
+		};
+		BBBC2917331EB6B09D393AFC = {
+			isa = PBXGroup;
+			children = (
+				84759DB77F22F7E8232FFB45 /* Ashlarbed */,
+				103B35E21F2C427562B48C8D /* AshlarbedTests */,
+				475B48DB1D07CC572A676865 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB1EE6F828AE630E92460C05 /* Storey */ = {
+			isa = PBXGroup;
+			children = (
+				D8EFA97A6F615CBB33B02329 /* CiteMark.swift */,
+				9119DA0CB9097EC6B7FF0119 /* FloorLedger.swift */,
+				6708A5D23F9964F7ACEA6549 /* PRStamp.swift */,
+				72C8E167DA7CCEE343C82BA6 /* Storey.swift */,
+				FFF6D8C423989237137ED77E /* StoreyFold.swift */,
+			);
+			path = Storey;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AD8934FD5D70F971640D25 /* Ashlarbed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541B198A9841B0345A8559B2 /* Build configuration list for PBXNativeTarget "Ashlarbed" */;
+			buildPhases = (
+				11DFDC990F3319A0048C5DDA /* Sources */,
+				8446E352FF1FBBE557DE494F /* Resources */,
+				1978363487E9672F8AA2C650 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ashlarbed;
+			packageProductDependencies = (
+				0D01E4208E4EF49BF373F5A7 /* Alamofire */,
+			);
+			productName = Ashlarbed;
+			productReference = A3A1E890A47E0AAB3046FA53 /* Ashlarbed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBA9FA4F4818EB07716CF72E /* AshlarbedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A141467230454D759157C01F /* Build configuration list for PBXNativeTarget "AshlarbedTests" */;
+			buildPhases = (
+				969812890989512D49B7276A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03ABC7CBCBBC34773E41487E /* PBXTargetDependency */,
+			);
+			name = AshlarbedTests;
+			packageProductDependencies = (
+			);
+			productName = AshlarbedTests;
+			productReference = B5C4F7CA7220D7156C5CF088 /* AshlarbedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0231AD99DC7836BC46E5A2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					50AD8934FD5D70F971640D25 = {
+						ProvisioningStyle = Automatic;
+					};
+					BBA9FA4F4818EB07716CF72E = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 62DEFB77408E0DB3D576A2FB /* Build configuration list for PBXProject "Ashlarbed" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = BBBC2917331EB6B09D393AFC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D1291EC844133D123BF1F2C8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 475B48DB1D07CC572A676865 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50AD8934FD5D70F971640D25 /* Ashlarbed */,
+				BBA9FA4F4818EB07716CF72E /* AshlarbedTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8446E352FF1FBBE557DE494F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C13970685CE5869F91D42F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11DFDC990F3319A0048C5DDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BED420F60BF8F112EBE269E /* APIConfig.swift in Sources */,
+				5D5C16B258880D119563E015 /* AppDelegate.swift in Sources */,
+				7275D76AFA02DF2FF8FE3D7F /* AshlarFace.swift in Sources */,
+				720292EA01F57EB40E0BE384 /* AshlarFigure.swift in Sources */,
+				9F1437B6D4D83866922D4D07 /* AshlarPassage.swift in Sources */,
+				B0DF8623FF98735B8824E14E /* AshlarSettings.swift in Sources */,
+				AA83B8E64EB05126D7E6228F /* AshlarSwatch.swift in Sources */,
+				C20902177DD35AC92F0B5C80 /* AshlarWash.swift in Sources */,
+				6A8D4F2134CE80ACC2FADC71 /* AshlarbedApp.swift in Sources */,
+				FF81B00AB1804B0F75BB2715 /* BedFoldView.swift in Sources */,
+				5CBB14DF85E2257D607A27D1 /* CiteMark.swift in Sources */,
+				A0AFE0271DF6CE78A076E011 /* ClimbableSteeple.swift in Sources */,
+				AC6CB4BFA1930461B427ED66 /* ContentView.swift in Sources */,
+				42370DF5C52E18051D979755 /* FloorLedger.swift in Sources */,
+				488DDFDE11841A297BE309CA /* LoggedSet.swift in Sources */,
+				E3690752C9637E12580044F0 /* MasonryLift.swift in Sources */,
+				D5D43B5FF47E6ABABC5D2942 /* PRStamp.swift in Sources */,
+				01CC5BE8467D77D52331B2EA /* RestBand.swift in Sources */,
+				358F75C30C217A1599B8A1DC /* RestCourseChip.swift in Sources */,
+				47803557F92ED4B5BCCEE033 /* Scaffold.swift in Sources */,
+				EE882C9DFDB4CF6199D97B12 /* SetLogFold.swift in Sources */,
+				B3E06C917F95E07DB0A4B558 /* Steeple.swift in Sources */,
+				F7079DE85B1FF61C2D5BE0FF /* SteepleChrome.swift in Sources */,
+				A4692EF6D6891C2C2A7BB615 /* SteepleClient.swift in Sources */,
+				3EF9C147F24DB574D6083B3B /* SteepleCodec.swift in Sources */,
+				26F9FD1D9FFAD3253C254665 /* SteepleDay.swift in Sources */,
+				4767904B717AECEFDE8B77F6 /* SteepleFault.swift in Sources */,
+				2E4F9ECA6E90B07D0B2CC633 /* SteepleHold.swift in Sources */,
+				E1F65477DF477FF5EE715A88 /* SteepleLaunch.swift in Sources */,
+				0A5C6FD39E1016BA434AC1D4 /* SteepleSeed.swift in Sources */,
+				2C6B531C14E78F9263D367A6 /* SteepleStore.swift in Sources */,
+				70E525181AABAFE6B548B273 /* SteepleWatch.swift in Sources */,
+				F0817E25C2E5F6D911F99374 /* Storey.swift in Sources */,
+				DF1DCDFEFA347F23491EBD49 /* StoreyFold.swift in Sources */,
+				74982529A87D50245D5D0A5E /* TowerPane.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		969812890989512D49B7276A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E938D131E1EF6BDDFFAE75DA /* AshlarbedTests.swift in Sources */,
+				5C11DDEAAB1314FE080ABFEE /* FamilyInvariantTests.swift in Sources */,
+				29D129F4026AABB9C9F8098B /* ScaffoldFoldTests.swift in Sources */,
+				1A0B7DF6668AC12394900D4A /* SteepleClientTests.swift in Sources */,
+				50FCAC30F1FD243994CED146 /* SteepleLaunchTests.swift in Sources */,
+				50320789C9CC86052BF001DB /* SteepleStoreTests.swift in Sources */,
+				65421ECD3B2F33E2EAFD0DFD /* SteepleWatchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03ABC7CBCBBC34773E41487E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AD8934FD5D70F971640D25 /* Ashlarbed */;
+			targetProxy = 58DC47032131B3F76B163F99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		434641A666D5A5CB651F44C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ashlarbed;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashlarbed.steeple;
+				PRODUCT_NAME = Ashlarbed;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FF21C50A3B4BC0577D12F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashlarbed.steeple.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ashlarbed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ashlarbed";
+			};
+			name = Release;
+		};
+		BB3E61CED139B41E4A42AC0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		C2F9A0AEBC3BAF70FF9DE215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		CA9A33179D88CEBBEBE2B2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashlarbed.steeple.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ashlarbed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ashlarbed";
+			};
+			name = Debug;
+		};
+		CCB30971BFF115E9B67D238C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOLS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Ashlarbed;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_UIColorName = background;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashlarbed.steeple;
+				PRODUCT_NAME = Ashlarbed;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541B198A9841B0345A8559B2 /* Build configuration list for PBXNativeTarget "Ashlarbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				434641A666D5A5CB651F44C2 /* Debug */,
+				CCB30971BFF115E9B67D238C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		62DEFB77408E0DB3D576A2FB /* Build configuration list for PBXProject "Ashlarbed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB3E61CED139B41E4A42AC0A /* Debug */,
+				C2F9A0AEBC3BAF70FF9DE215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A141467230454D759157C01F /* Build configuration list for PBXNativeTarget "AshlarbedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA9A33179D88CEBBEBE2B2E2 /* Debug */,
+				8FF21C50A3B4BC0577D12F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1291EC844133D123BF1F2C8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wrandecima-bit/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = 7fdd403089757be2ce6991b287c7bef612c8bd04;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0D01E4208E4EF49BF373F5A7 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1291EC844133D123BF1F2C8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F0231AD99DC7836BC46E5A2D /* Project object */;
+}

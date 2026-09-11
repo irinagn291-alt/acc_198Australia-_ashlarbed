@@ -1,0 +1,15 @@
+The Info.plist includes NSCameraUsageDescription with the exact string “This app does not use the camera.” The app never requests camera access and no permission dialog is shown. There are no other permission usage strings.
+
+There is no login, no in-app purchase, no user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Ashlarbed is a personal lift log for lifters who write weight and reps on the Tower and Bed the session so the week becomes climbable 500 kg floors. It does not prescribe programmes or loads.
+
+No credentials or demo account are needed. On a cold launch, finish or Skip onboarding (Log a set on the tower, Bed the session, Climb the week, then Set the day’s aim for Experience and Aim) and tap Open the tower. On an empty Tower, tap Log the first set. Under Write a set, pick a lift (Back squat, Bench press, Deadlift, or Overhead press), enter Weight and Reps, then tap Write the set. Tap Bed the session to fold today’s scaffold. The info control How floors are written opens Scaffold, then bed. Use the Analytics tab for Bedded floors, Volume, and Earned PR stamps. Use Settings to edit Lifts, Experience and aim, open Sources, tap Contact Ashlarbed, Re-run onboarding, or Reset all data.
+
+On launch the binary may POST the bundle identifier to https://ashlarbed-steeple.pro/api/v1/users/register. That call is not required to use the lift log. Tappable links open https://en.wikipedia.org/wiki/One-repetition_maximum, https://medlineplus.gov/exerciseandphysicalfitness.html, and https://ashlarbed-steeple.pro/contact-us. Sets, lifts, floors, stamps, Experience, and Aim stay on the device in UserDefaults (asb.steeple.v1) and an Application Support file.
+
+Behaviour does not change by region. Weight is always kilograms. Numbers and dates follow the device locale and calendar.
+
+No licence or regulated-industry paperwork applies. This is a personal training log, not a medical device or a clinic.
+
+The Epley 1RM estimate (weight × (1 + repetitions / 30)) is shown on Write a set, on Earned PR stamps, and in Settings under Sources. Citations are tappable links on Settings, Sources and on Analytics under Earned PR stamps, titled Epley one-repetition maximum and NIH MedlinePlus — Exercise and Physical Fitness. The same Sources text states this is a personal training log, not medical advice. The app does not recommend products or treatments.
