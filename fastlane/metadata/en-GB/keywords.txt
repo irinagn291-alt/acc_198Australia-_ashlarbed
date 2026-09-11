@@ -1,1 +1,0 @@
-lift,logger,workout,1RM,Epley,PR,squat,bench,deadlift,set,reps,weight,strength,training,floors,kg
